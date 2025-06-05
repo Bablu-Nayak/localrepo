@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on selectors</title>
+    <style>
+        input::placeholder{
+            color: rgb(100, 13, 239);
+            /* background-color: aqua; */
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        ::selection{
+            color: aqua;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form">
+        <div class="box1">
+            <label for="red">Enter name:&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="enter your name" class="red">
+        </div>
+        <div class="box2">
+            HI this is me
+        </div>
+        <div class="box3"></div>
+    </div>
+</body>
+
+</html>
